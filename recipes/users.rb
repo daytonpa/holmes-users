@@ -12,7 +12,7 @@ system_users.each do |item|
 
   # Create the user
   user system_user['id'] do
-    comment system_user['comment']
+    comment system_user['description']
     gid system_user['gid']
     manage_home true
     home system_user['home']

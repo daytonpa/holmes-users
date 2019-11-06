@@ -11,7 +11,7 @@ group_items = data_bag(node['holmes-users']['data_bag']['groups'])
 group_items.each do |item|
   group_item = data_bag_item(node['holmes-users']['data_bag']['groups'], item)
   group group_item['id'] do
-    comment group_item['comment']
+    comment group_item['description']
     system true
   end
 end
