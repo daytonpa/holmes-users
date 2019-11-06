@@ -1,0 +1,8 @@
+{
+  "id": "test-admin",
+  "description": "Mock admin user data bag item",
+  "gid": "test-admin",
+  "home": "/home/test-admin",
+  "shell": "/bin/bash",
+  "sudoer": true 
+}
